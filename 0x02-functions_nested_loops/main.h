@@ -1,5 +1,5 @@
-#ifndef main.c
-#define main.h
+#ifndef MAIN_H
+#define MAIN_H
 /**
  * _putchar - writes the character c to std
  * @c: parameter to compare
@@ -48,7 +48,7 @@ int _abs(int);
  */
 int print_last_digit(int);
 /**
- * jack_bauer - jack bauer gooo
+ * jack_bauer - displays time in 24hor format
  *
  */
 void jack_bauer(void);
@@ -77,5 +77,6 @@ void print_to_98(int n);
  *
  */
 void print_times_table(int n);
+
 #endif
 
