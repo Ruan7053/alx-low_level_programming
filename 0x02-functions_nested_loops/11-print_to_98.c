@@ -3,6 +3,7 @@
 /**
  * print_to_98 - prints all natural numbers from n to 98
  *
+ * @n - Input from user 
  */
 
 void print_to_98(int n)
@@ -19,7 +20,7 @@ void print_to_98(int n)
 				printf(", ");
 			}
 		}
-	}else
+	} else
 	{
 		for (i = n; i <= 98; i++)
 		{
