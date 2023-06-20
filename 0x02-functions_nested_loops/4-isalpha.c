@@ -8,7 +8,7 @@
  * Return: 1 if true, 0 if false
  *
  */
-int_isplha(int c)
+int _isplha(int c)
 {
 	if ((c >= 'a' && c <= 'z')||(c >= 'A' && c <= 'Z'))
 	{
